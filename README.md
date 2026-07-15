@@ -122,7 +122,17 @@ It is designed as a complete end-to-end AI project rather than only a training n
 
 > 📌 Sample generated faces
 
-*(Preview image will be added in Part 2.)*
+<div align="center">
+
+ Preview 1 | Preview 2 |
+|----------|----------|
+| <img src="outputs/anime_faces1.png" width="350"> | <img src="outputs/anime_faces2.png" width="350"> |
+
+| Preview 3 | Preview 4 |
+|----------|----------|
+| <img src="outputs/anime_faces3.png" width="350"> | <img src="outputs/anime_faces4.png" width="350"> |
+
+</div>
 
 ---
 
@@ -357,16 +367,16 @@ Download the generated image.
 
 <div align="center">
 
- sample 1 | Epoch 10 |
+ sample 1 | sample 10 |
 |----------|----------|
 | <img src="outputs/sam1.png" width="350"> | <img src="outputs/sam4.png" width="350"> |
 
-| Epoch 20 | Epoch 40 |
+| sample 20 | sample 40 |
 |----------|----------|
 | <img src="outputs/sam4.png" width="350"> | <img src="outputs/sam5.png" width="350"> |
 
 </div>
 
-> Replace `app_preview.png` with a screenshot of your deployed Streamlit application.
+
 
 --- 
