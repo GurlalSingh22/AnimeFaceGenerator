@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Anime%20Face%20Generator&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Generate%20High-Quality%20Anime%20Faces%20using%20Deep%20Convolutional%20GAN%20(DCGAN)&descAlignY=55&descSize=18" width="100%">
+
 # 🎨 Anime Face Generator
 
 ### Generate High-Quality Anime Faces using Deep Convolutional GAN (DCGAN)
@@ -7,6 +9,8 @@
 <img src="assets/banner.png" width="100%">
 
 <br>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=FF4B4B&center=true&vCenter=true&width=600&lines=Generating+new+anime+faces...;Training+the+Generator...;Fooling+the+Discriminator...;Deployed+on+Streamlit+Cloud+%F0%9F%9A%80)](https://git.io/typing-svg)
 
 [![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Streamlit-FF4B4B?style=for-the-badge)](https://anime-facegenerator.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python)](https://www.python.org/)
@@ -26,9 +30,11 @@
 
 ### ⭐ If you like this project, don't forget to star the repository!
 
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100">
+
 </div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=3&section=header" width="100%">
 
 # 📖 About The Project
 
@@ -38,7 +44,7 @@ The model is trained using a **Deep Convolutional Generative Adversarial Network
 
 The project includes a modern **Streamlit Web Application** where users can generate multiple anime faces instantly and download the generated image.
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=3&section=header" width="100%">
 
 # ✨ Features
 
@@ -53,7 +59,7 @@ The project includes a modern **Streamlit Web Application** where users can gene
 - 📊 Training progress visualization
 - 📱 Responsive Streamlit interface
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=3&section=header" width="100%">
 
 # 🚀 Live Demo
 
@@ -61,7 +67,7 @@ Click below to try it yourself.
 
 ### 🌍 https://anime-facegenerator.streamlit.app/
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=3&section=header" width="100%">
 
 # 📊 Project Statistics
 
@@ -78,7 +84,7 @@ Click below to try it yourself.
 | 📉 Loss Function | BCEWithLogitsLoss |
 | 🚀 Deployment | Streamlit Cloud |
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=3&section=header" width="100%">
 
 # 🛠 Tech Stack
 
@@ -97,7 +103,7 @@ Click below to try it yourself.
 
 </div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=3&section=header" width="100%">
 
 # 🌟 Why This Project?
 
@@ -116,7 +122,7 @@ This project demonstrates the complete Deep Learning workflow:
 
 It is designed as a complete end-to-end AI project rather than only a training notebook.
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=3&section=header" width="100%">
 
 # 📸 Preview
 
@@ -134,7 +140,7 @@ It is designed as a complete end-to-end AI project rather than only a training n
 
 </div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=3&section=header" width="100%">
 
 # 🏆 Highlights
 
@@ -146,7 +152,7 @@ It is designed as a complete end-to-end AI project rather than only a training n
 - ✅ Beginner Friendly Code
 - ✅ Professional Project Structure
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=3&section=header" width="100%">
 
 # 📑 Table of Contents
 
@@ -193,7 +199,7 @@ Watching the Generator improve during training.
 
 </div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=3&section=header" width="100%">
 
 # 📈 Training Summary
 
@@ -209,7 +215,7 @@ Watching the Generator improve during training.
 | Loss | BCEWithLogitsLoss |
 | Device | CUDA GPU |
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=3&section=header" width="100%">
 
 # 🧠 DCGAN Architecture
 
@@ -259,7 +265,7 @@ Watching the Generator improve during training.
                 Generator Improves
 ```
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=3&section=header" width="100%">
 
 # 📂 Project Structure
 
@@ -286,7 +292,7 @@ AnimeFaceGenerator/
 └── .gitignore
 ```
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=3&section=header" width="100%">
 
 # ⚙️ Installation
 
@@ -320,7 +326,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=3&section=header" width="100%">
 
 # 🚀 Usage
 
@@ -361,7 +367,7 @@ Wait a few seconds.
 
 Download the generated image.
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=3&section=header" width="100%">
 
 # 📸 Application Preview
 
@@ -377,6 +383,10 @@ Download the generated image.
 
 </div>
 
+---
 
+<div align="center">
 
---- 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%">
+
+</div>
