@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+.venv/
+venv/
+
+# Generated Images
+generated/
+
+# Checkpoints
+checkpoints/
+
+# OS Files
+Thumbs.db
+.DS_Store

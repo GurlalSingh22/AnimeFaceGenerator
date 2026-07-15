@@ -1,0 +1,256 @@
+/* =======================================================
+   Background
+======================================================= */
+
+.stApp{
+    background: linear-gradient(-45deg,#0b1120,#111827,#1e293b,#312e81);
+    background-size:400% 400%;
+    animation:gradientBG 15s ease infinite;
+    color:white;
+}
+
+@keyframes gradientBG{
+
+0%{
+background-position:0% 50%;
+}
+
+50%{
+background-position:100% 50%;
+}
+
+100%{
+background-position:0% 50%;
+}
+
+}
+
+/* =======================================================
+   Main Container
+======================================================= */
+
+.block-container{
+    padding-top:2rem;
+    max-width:1200px;
+}
+
+/* =======================================================
+   Title
+======================================================= */
+
+.main-title{
+
+    text-align:center;
+
+    font-size:58px;
+
+    font-weight:800;
+
+    background:linear-gradient(
+        90deg,
+        #00E5FF,
+        #7B61FF,
+        #FF4B91
+    );
+
+    -webkit-background-clip:text;
+
+    -webkit-text-fill-color:transparent;
+
+    margin-bottom:10px;
+}
+
+.sub-title{
+
+    text-align:center;
+
+    color:#bdbdbd;
+
+    font-size:18px;
+
+    margin-bottom:40px;
+}
+
+/* =======================================================
+   Metric Cards
+======================================================= */
+
+[data-testid="stMetric"]{
+
+background:rgba(255,255,255,.05);
+
+backdrop-filter:blur(12px);
+
+border:1px solid rgba(255,255,255,.08);
+
+border-radius:18px;
+
+padding:20px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.35);
+
+transition:.3s;
+
+}
+
+[data-testid="stMetric"]:hover{
+
+transform:translateY(-4px);
+
+}
+/* =======================================================
+   Sidebar
+======================================================= */
+
+[data-testid="stSidebar"]{
+
+background:#101522;
+
+border-right:1px solid rgba(255,255,255,.08);
+
+}
+
+/* =======================================================
+   Buttons
+======================================================= */
+
+.stButton>button{
+
+width:100%;
+
+height:60px;
+
+border:none;
+
+border-radius:18px;
+
+font-size:19px;
+
+font-weight:700;
+
+color:white;
+
+background:linear-gradient(
+90deg,
+#6C63FF,
+#8A2BE2,
+#FF4B91
+);
+
+transition:0.35s;
+
+}
+
+.stButton>button:hover{
+
+transform:translateY(-4px);
+
+box-shadow:
+0 0 20px #7B61FF,
+0 0 45px #FF4B91;
+
+}
+
+/* =======================================================
+   Download Button
+======================================================= */
+
+.stDownloadButton>button{
+
+width:100%;
+
+height:55px;
+
+border-radius:18px;
+
+border:none;
+
+font-weight:bold;
+
+font-size:18px;
+
+color:white;
+
+background:linear-gradient(
+90deg,
+#00C853,
+#00E676
+);
+
+transition:.3s;
+
+}
+
+.stDownloadButton>button:hover{
+
+box-shadow:0 0 25px #00E676;
+
+}
+
+/* =======================================================
+   Image
+======================================================= */
+
+img{
+
+border-radius:20px;
+
+box-shadow:0 12px 45px rgba(0,0,0,.45);
+
+animation:floating 5s ease-in-out infinite;
+
+transition:.3s;
+
+}
+
+img:hover{
+
+transform:scale(1.01);
+
+}
+
+@keyframes floating{
+
+0%{
+transform:translateY(0px);
+}
+
+50%{
+transform:translateY(-8px);
+}
+
+100%{
+transform:translateY(0px);
+}
+
+}
+
+/* =======================================================
+   Expander
+======================================================= */
+
+.streamlit-expanderHeader{
+
+    font-size:20px;
+
+    font-weight:bold;
+
+}
+details{
+
+background:#1d2333;
+
+border-radius:15px;
+
+padding:10px;
+
+}
+/* =======================================================
+   Footer
+======================================================= */
+
+footer{
+
+    visibility:hidden;
+
+}
